@@ -1,0 +1,35 @@
+[[index]]
+
+
+== VIMRC Settings Reference ==
+.---------------------------------------------------------------------------------------------.
+| Setting                        | Description                                    | Essential |
+|--------------------------------|------------------------------------------------|-----------|
+| set nocompatible               | Disregard `vi` compatibility                   | Yes       |
+| set showcmd                    | Show partial commands in the status line       | No        |
+| set showmatch                  | Highlight matching brackets                    | Yes       |
+| set smartcase                  | Lowercase queries default to case-insensitive  | Yes       |
+| set incsearch                  | Turn on incremental searching                  | Yes       |
+| set mouse=a                    | Turn on basic mouse support                    | No        |
+| set number                     | Enable line numbering                          | Yes       |
+| set relativenumber             | Enable relative line numbering                 | Yes       |
+| set numberwidth=5              | Set the width of the line number column        | Yes       |
+| set autoindent                 | Keep current indentation on new lines          | Yes       |
+| set expandtab                  | Use spaces instead of tabs                     | Yes       |
+| set tabstop=4                  | Set tab width to 4 spaces                      | Yes       |
+| set shiftwidth=4               | Set default indentation to 4 spaces            | Yes       |
+| set hlsearch                   | Highlight search results                       | Yes       |
+| set ruler                      | Show cursor position in statusbar              | Yes       |
+| set wildmenu                   | Show visual menu for function completion       | Yes       |
+| set cursorline                 | Highlight the current line                     | Yes       |
+| set title                      | Set the terminal title to the current filename | Yes       |
+| set confirm                    | Confirm before closing unsaved files           | Yes       |
+| set encoding=utf-8             | Use utf-8 encoding by default                  | Yes       |
+| set backspace=indent,eol,start | Backspace all the things                       | Yes       |
+| set splitbelow                 | Splits are below the current file by default   | Yes       |
+| set clipboard=unnamed          | Use system clipboard                           | Yes       |
+| set clipboard=unnamedplus      | use system clipboard                           | Yes       |
+| set laststatus=20              | Always display the statusbar                   | Yes       |
+| set colorcolumn=80             | Show a column 80 characters out                | No        |
+| set spell                      | Check spelling and mark misspelled words       | No        |
+'---------------------------------------------------------------------------------------------'

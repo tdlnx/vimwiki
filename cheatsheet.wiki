@@ -1,0 +1,99 @@
+[[index]]
+
+Better Comments Syntax [VSCode]
+-------------------------------
+//! ALERT
+//? QUESTION
+//TODO: TODO
+//@param PARAMETER
+//* HIGHLIGHT
+- Easy. Add more in settings if you want.
+
+
+VIMWiki Markdown Formatting [VIM]
+---------------------------------
+.-----------------------------------------------.
+| Text Formatting     | Command                 |
+|-----------------------------------------------|
+| Header1             | = around text           |
+| Header2             | == around text          |
+| Header3             | === around text         |
+| Bold                | * around text           |
+| Italic              | _ around text           |
+| Link                | Double [Link]           |
+| Link w/ Description | Double [Link<pipe>Desc] |
+|-----------------------------------------------|
+| Lists               | Command                 |
+|-----------------------------------------------|
+| Bullet Lists        | Alternate * and -       |
+| Numbered Lists      | Alternate #) and a)     |
+'-----------------------------------------------'
+
+
+EVERY-DAY VIM SHORTCUTS [VIM]
+-----------------------------
+.----------------------------------------------------------------------------------------------.
+| Shortcut | Function                                                                          |
+|----------------------------------------------------------------------------------------------|
+| o        | Enter INSERT MODE below current line                                              |
+| O        | Enter INSERT MODE above current line                                              |
+| gg=G     | Auto-indent the whole buffer                                                      |
+| gi       | Jump to the last edited line and enter INSERT MODE                                |
+| zz       | Center the current line on the screen                                             |
+| /        | Search forward in text                                                            |
+| ?        | Search backward in text                                                           |
+| ci"      | Change text inside quotes                                                         |
+| *        | Search for the current word under the cursor                                      |
+| Ctrl+o   | Go back through the jump list (do twice when opening a file to jump to last edit) |
+| Ctrl+i   | Go forward through the jump list                                                  |
+| Ctrl+j   | Jump to the definition of the highlighted method (requires ctags)                 |
+| ~        | Toggle case                                                                       |
+| I        | Enter INSERT MODE at the beginning of a line                                      |
+| A        | Enter INSERT MODE at the end of a line                                            |
+| gf       | Open the highlighted file under the cursor                                        |
+| y        | In visual mode, 'yank' selected text to the vim clipboard                         |
+| "*y      | Same as 'y' but it compies to your system clipboard                               |
+| $        | Move to the end of the current line                                               |
+| 0        | Move to the beginning of the current line                                         |
+'----------------------------------------------------------------------------------------------'
+
+
+VIMRC SETTINGS [VIM]
+--------------------
+.----------------------------------------------------------------------------------------------------------.
+| Vim Setting                    | Description                                                 | Essential |
+|--------------------------------|-------------------------------------------------------------|-----------|
+| set nocompatible               | Disregard 'vi' compatibility because reasons.               | Yes       |
+| set showcmd                    | Show partial commands in the status line.                   | No        |
+| set showmatch                  | Highlight matching brackets.                                | Yes       |
+| set smartcase                  | Lowercase queries default to being case insensitive.        | Yes       |
+| set incsearch                  | Turn on incremental searching.                              | Yes       |
+| set mouse=a                    | Turn on basic mouse support.                                | No        |
+| set number                     | Enable line numbering.                                      | Yes       |
+| set relativenumber             | Line numbers are displayed relative to the cursor position. | Yes       |
+| set numberwidth=5              | Set the width of the number column.                         | Yes       |
+| set autoindent                 | Keep recent indentation position on new lines.              | Yes       |
+| set expandtab                  | Use spaces instead of tabs.                                 | Yes       |
+| set tabstop=4                  | Set tab width to 4 spaces.                                  | Yes       |
+| set shiftwidth=4               | Set default indentation to 4 spaces.                        | Yes       |
+| set hlsearch                   | Highlight search results in text.                           | Yes       |
+| set ruler                      | Show cursor position in bottom right corner.                | No        |
+| set wildmenu                   | Show a visual menu for funtion completion.                  | Yes       |
+| set curcorline                 | Highlight the current line.                                 | Yes       |
+| set title                      | Set the terminal title to the current filename.             | No        |
+| set confirm                    | Enable save prompt when closing unsaved buffers.            | Yes       |
+| set encoding=utf-8             | Set encoding to utf-8 by default.                           | Yes       |
+| set backspace=indent,eol,start | Backspace all the things!                                   | Yes       |
+| set splitbelow                 | New splits always render beneath the current buffer.        | Yes       |
+| set clipboard=unnamed          | Use the system clipboard instead of VIM's clipboard.        | Yes       |
+| set clipboard=unnamedplus      | Use the system clipboard instead of VIM's clipboard.        | Yes       |
+| set laststatus=2               | Always display the status bar.                              | Yes       |
+| set colorcolumn=80             | Display a column 'x' characters out to monitor line length. | No        |
+| set spell                      | Check spelling and mark misspelled words.                   | No        |
+| nnoremap <C-p> :wincmd p<CR>   | Remap Ctrl+p to switch between splits.                      | Yes       |
+'----------------------------------------------------------------------------------------------------------'
+
+
+Up to date config files including .vimrc [VIM]
+----------------------------------------------
+https://github.com/tdlnx/cfg_files.git

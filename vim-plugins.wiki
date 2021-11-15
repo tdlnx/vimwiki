@@ -1,0 +1,79 @@
+[[index]]
+
+
+Vim Plug Installation and Configuration
+---------------------------------------
+
+-> All of these commands go in your .vimrc file.
+.-------------------------------------------------------------------------------.
+|                 Install vim-plug if it isn't already installed.               |
+|-------------------------------------------------------------------------------|
+|                                                                               |
+|       if empty(glob('~/.vim/autoload/plug.vim'))                              |
+|         silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs              |
+| 	        \ raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim       |
+|       endif                                                                   |
+|                                                                               |
+'-------------------------------------------------------------------------------'
+.-------------------------------------------------------------------------------.
+|       Automatically install/uninstall missing plugins when starting VIM       |
+|-------------------------------------------------------------------------------|
+|                                                                               |
+| autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)')) |
+|		 \| PlugInstall --sync | source $MYVIMRC                                |
+|	 \| endif                                                                   |
+|                                                                               |
+'-------------------------------------------------------------------------------'
+-> Initialize plugins with 'Plug' followed by the plugin link between the following tags:
+
+    call plug#begin('!/.vim/plugged')
+    Plug 'Put the plugin's github repo here'
+    call plug#end()
+
+
+Currently Used Plugins and Descriptions
+---------------------------------------
+-> For more info just google it, also check out vimawesome.com for more plugins
+
+.----------------------------------------------------------------------------------------.
+| -> sheerun/vim-polyglot           | Syntax highlighting for a bunch of languages       |
+| -> chivalry/filemaker             | Syntax highlighting for FileMaker                  |
+| -> jiangmiao/auto-pairs           | Auto add closing brackets/quotes/etc               |
+| -> mattn/emmet-vim                | Emmet HTML/CSS snippets                            |
+| -> Yggdroot/indentLine            | Visualize line indentation                         |
+| -> junegunn/fzf                   | * Fuzzy file searching                             |
+| -> mileszs/ack                    | Ack search recursively in the current directory    |
+| -> ludovicchabant/vim-gutentags   | Automatically handle ctags                         |
+| -> skywind3000/gitentags_plus     | Enhanced ctag handling for vim-gutentags           |
+| -> majutsushi/tagbar              | Toggle panel showing all tags in current file      |
+| -> tpope/vim-commentary           | Easily comment out blocks of code                  |
+| -> airblade/vim-gitgutter         | Visualize changes in Git monitored directories     |
+| -> itchyny/lightline              | Lightweight statusbar replacement                  |
+| -> bling/vim-bufferline           | Show open buffers beneath the statusbar            |
+| -> jacoborus/tender               | A nice color scheme                                |
+| -> scrooloose/nerdtree            | Toggle a traditional right-aligned file browser    |
+| -> junegunn/goyo                  | Distraction-free writing in Vim                    |
+| -> junegunn/limelight             | Single paragraph highlighting when using Goyo      |
+| -> vimwiki/vimwiki                | Personal wiki inside Vim                           |
+| -> w0rp/ale                       | Lint plugin for Vim (used ESLint)                  |
+| -> christoomey/vim-system-copy    | Copy text to your system clipboard                 |                                                    |
+'----------------------------------------------------------------------------------------'
+
+COC Extensions 
+--------------
+-> Install with :CocInstall [extension]
+.------------------------------------------------------------------------.
+| -> coc-tsserver       | Typescript                                      |
+| -> coc-tslint-plugin  | TSLint                                          |
+| -> coc-snippets       | Snippets                                        |
+| -> coc-highlight      | Word Highlighting                               |
+| -> coc-emmet          | Emmet Snippets                                  |
+| -> coc-marketplace    | Marketplace for finding more coc extensions     |
+| -> coc-html           | HTML                                            |
+| -> coc-json           | JSON                                            |
+| -> coc-vetur          | Vetur Plugin (vscode)                           |
+| -> coc-css            | CSS                                             |
+'-------------------------------------------------------------------------'
+
+
+
