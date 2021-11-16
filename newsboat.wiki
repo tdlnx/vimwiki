@@ -1,0 +1,22 @@
+[[index]]
+
+Newsboat URL Config [.newsboat/urls]
+------------------------------------
+
+https://www.stallman.org/rss/rss.xml
+https://feeds.npr.org/1001/rss.xml
+http://rss.cnn.com/rss/cnn_topstories.rss
+http://rss.cnn.com/rss/cnn_us.rss
+http://rss.cnn.com/rss/cnn_tech.rss
+http://rss.cnn.com/rss/cnn_health.rss
+https://www.cnbc.com/id/15837362/device/rss/rss.html
+https://www.cnbc.com/id/10000113/device/rss/rss.html
+https://www.cnbc.com/id/19854910/device/rss/rss.html
+https://www.cbsnews.com/latest/rss/main
+https://www.cbsnews.com/latest/rss/us
+https://www.cbsnews.com/latest/rss/politics
+https://www.cbsnews.com/latest/rss/technology
+https://www.cbsnews.com/latest/rss/entertainment
+http://feeds.foxnews.com/foxnews/national
+http://feeds.foxnews.com/foxnews/world
+http://feeds.abcnews.com/abcnews/moneyheadlines

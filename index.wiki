@@ -8,4 +8,8 @@ Configuration
 [[vimrc-settings]]
 [[vim-plugins]]
 
-
+Cli Apps
+--------
+[[bash-config]]
+[[mutt]]
+[[newsboat]]

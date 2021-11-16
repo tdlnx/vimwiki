@@ -1,0 +1,53 @@
+[[index]]
+
+Mutt Signature [.mutt/.signature]
+---------------------------------
+
+Travis Witt
+
+Consider Open Source!
+kitt.it/opensource
+
+
+Mutt config [.muttrc]
+---------------------
+
+# Mutt Config
+
+# About
+set from = "travis@fastmail.org"
+set realname = "Travis Witt"
+set signature = "~/.mutt/.signature"
+
+# Credentials
+set ssl_starttls = yes
+set ssl_force_tls = yes
+set smtp_url = "smtp://travis@fastmail.org@smtp.fastmail.com:587"
+set smtp_pass = "PASSWORD"
+set imap_user = "travis@fastmail.org"
+set imap_pass = "PASSWORD"
+
+# Sendmail
+set sendmail = "/usr/bin/msmtp"
+
+
+# Mailboxes
+set folder = "imaps://imap.fastmail.com"
+set spoolfile = "+INBOX"
+set record = +Sent
+
+
+# Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"
+
+# GnuPG bootstrap
+# source ~/.mutt/gpg.rc
