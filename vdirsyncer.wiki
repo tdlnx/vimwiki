@@ -1,5 +1,11 @@
 [[index]]
 
+
+Website
+-------
+https://vdirsyncer.pimutils.org/en/stable/index.html
+
+
 VDirSyncer Configuration [~/.vdirsyncer/config]
 -----------------------------------------------
 

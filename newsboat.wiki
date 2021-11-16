@@ -1,5 +1,9 @@
 [[index]]
 
+Website
+-------
+https://newsboat.org/
+
 Newsboat URL Config [~/.newsboat/urls]
 ------------------------------------
 

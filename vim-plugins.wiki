@@ -20,8 +20,8 @@ Vim Plug Installation and Configuration
 |-------------------------------------------------------------------------------|
 |                                                                               |
 | autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)')) |
-|		 \| PlugInstall --sync | source $MYVIMRC                                |
-|	 \| endif                                                                   |
+|		 \| PlugInstall --sync | source $MYVIMRC                                    |
+|	 \| endif                                                                     |
 |                                                                               |
 '-------------------------------------------------------------------------------'
 -> Initialize plugins with 'Plug' followed by the plugin link between the following tags:

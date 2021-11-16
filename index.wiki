@@ -1,18 +1,28 @@
-== Your Friendly Neighborhood Travlopedia ==
---------------------------------------------
-Lost? Start Here => [[cheatsheet]]
+==================================================
+| Your Friendly Neighborhood Travlopedia         |
+| git clone https://github.com/tdlnx/vimwiki.git |
+==================================================
+--------------------------------------------------
+> Lost? Start Here => [[cheatsheet]]
 
 
-Configuration
--------------
+> Configuration
+----------------
+[[bash-config]]
 [[vimrc-settings]]
 [[vim-plugins]]
 
-Cli Apps
---------
-[[bash-config]]
+
+> Cli Apps
+-----------
 [[khal]]
 [[khard]]
 [[mutt]]
 [[newsboat]]
 [[vdirsyncer]]
+
+
+> Reference
+------------
+
+

@@ -1,5 +1,11 @@
 [[index]]
 
+
+Website
+-------
+https://lostpackets.de/khal/index.html
+
+
 Khal Configuration [~/.config/khal/config]
 ------------------------------------------
 
