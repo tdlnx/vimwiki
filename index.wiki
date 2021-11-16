@@ -11,5 +11,8 @@ Configuration
 Cli Apps
 --------
 [[bash-config]]
+[[khal]]
+[[khard]]
 [[mutt]]
 [[newsboat]]
+[[vdirsyncer]]

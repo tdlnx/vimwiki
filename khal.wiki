@@ -1,0 +1,19 @@
+[[index]]
+
+Khal Configuration [~/.config/khal/config]
+------------------------------------------
+
+[calendars]
+
+  [[personal]]
+    path = ~/.calendars/6e03baa1-3549-4fab-bde8-33bb8af0a61f/
+
+  [[family]]
+    path = ~/.calendars/e440867a-c4bc-4941-8a9f-d72b30bed7f8/
+
+[locale]
+timeformat = %I:%M %p
+dateformat = %Y-%m-%d
+longdateformat = %Y-%m-%d
+datetimeformat = %Y-%m-%d %I:%M %p
+longdatetimeformat = %Y-%m-%d %I:%M %p

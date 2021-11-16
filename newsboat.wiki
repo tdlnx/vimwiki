@@ -1,6 +1,6 @@
 [[index]]
 
-Newsboat URL Config [.newsboat/urls]
+Newsboat URL Config [~/.newsboat/urls]
 ------------------------------------
 
 https://www.stallman.org/rss/rss.xml

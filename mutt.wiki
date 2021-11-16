@@ -1,6 +1,6 @@
 [[index]]
 
-Mutt Signature [.mutt/.signature]
+Mutt Signature [~/.mutt/.signature]
 ---------------------------------
 
 Travis Witt
@@ -9,7 +9,7 @@ Consider Open Source!
 kitt.it/opensource
 
 
-Mutt config [.muttrc]
+Mutt config [~/.muttrc]
 ---------------------
 
 # Mutt Config
