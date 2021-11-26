@@ -1,0 +1,85 @@
+[[index]]
+
+Wondrous Items
+--------------
+
+- Ezra's Book of Thought -
+This book records every conversation of its owner,
+regardless of the distance. If a new person takes
+posession of the book without it being explicitly
+lent to them by the original owner, all pages become
+blank.
+
+- Basket of Finding -
+Basket that will sift objects according to any rules
+described to it. And excellent tool for finding literal
+needles in haystacks. It could be used to sort nearly
+anything (for example, items worth more than 100GP),
+however the imp bound to the basket can not read and
+refuses to learn, so sorting by letters of any kind
+will not work.
+
+- Mirror of Capricious Deception -
+Always reflects a slightly altered version of reality.
+If someone spends time polishing it, they can whisper
+a request and the mirror will display a single lie
+of their choosing.
+
+- Belmont's Music Box -
+When wound and played, for 3 minutes supresses all 
+sounds other than the plink-plink-plink of its own
+music. the silencing effect is proportional to how 
+well the music is heard. For example, if the music
+is clear, all sounds other than the music are mute,
+however if the music can only slightly be heard,
+other sounds are only slightly muted.
+
+- Toy Sword -
+A prop sword that is obviously fake and not at all
+threatening. Anyone struck with the blade will feel as
+if and perceive that they have been stabbed by a real
+weapon. Anyone watching can clearly see that the blade
+is harmless and the person struck is wildly overreacting.
+
+- Cage of Understanding -
+A small domed birdcase with a door large enough to fit
+a bird or other small animal. While in the cage the creature
+gains a human-like intelligence and self awareness. This
+is pretty uncomfortable for the creature, and while they
+do not wish to be rude they would very much like
+to get the hell out of here.
+
+- Sand Timer -
+A normal looking sand timer that lasts 10 minutes. When
+the timer runs out, the person who set it will be thrust
+back in time 10 minutes. Useful for trying actions with
+uncertain outcomes. However, there is a 1 in 12 chance
+that time will turn back 10 minutes WITHOUT the one who
+set the timer, causing them to be removed from their
+reality as if they never existed.
+
+- Prison of Rest -
+A blanket which traps any single creature who sleeps with
+it in a fuzzy two-dimentional prison. While imprisoned
+the creature perceieves time, but does now experience
+hunger, thirst, or fatigue and is unable to rest. Giving
+the blanket a heavy shake will cause the imprisoned creature
+to come tumbling out.
+
+- Pauper's Pocket Square -
+A small dirty rag which causes the wearer and any items 
+carried by them to appear to be worthless trash.
+
+- Snowglobe -
+A snow globe containing a small town. If rubbed, a single
+creature can visit the town and take advantage of the goods
+and services provided within. The townsfolk are fully aware
+of their situation, as this globe acts as a purgatory and 
+punishment for unspeakable crimes they committed in life. If
+they can remain pleasant and good natured for 100 years they
+will be reborn with another chance at life. If the snowglobe
+is smashed, the town ceases to exist and all inhabitants'
+souls inside (including any visitors) are permenantly trapped
+in a state of hopeless agony for all eternity.
+
+
