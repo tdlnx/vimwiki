@@ -20,12 +20,17 @@
 [[mutt]]
 [[newsboat]]
 [[vdirsyncer]]
+[[w3m]]
 
 
 > Reference
 ------------
+[[WebDev]]
 
-========================
+
+=====================================
+| Definitely not work related stuff |
+=====================================
 
 > DM Notes
 ----------

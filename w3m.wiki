@@ -1,0 +1,45 @@
+[[index]]
+
+Website
+-------
+https://w3m.sourceforge.net
+
+
+Cheat Sheet
+-----------
+
+H     | Show runtime options
+K,J   | Scroll one line at a time
+z     | Center current line
+[,]   | Go to first/last link
+TAB   | Go to next link
+S+TAB | Go to previous link
+C-m   | Popup link menu
+C-t   | Open in new tab
+a     | Save link
+c     | Peek current url
+u     | Peek link url
+I     | View image
+L     | Show all links and images
+B     | Back
+v     | View source
+s     | Popup buffer selection
+S     | Save buffer to file
+E     | Edit (local file)
+R     | Reload page
+T     | Open new tab
+C-q   | Close tab
+{,}   | Next/Previous tab
+ESC-t | Tab Menu
+ESC-b | View bookmark
+ESC-a | Add bookmark
+o     | Option setting panel
+C-h   | View history
+q     | Quit with confirmation
+Q     | Quit without confirmation
+/,?   | Search forward/back
+C-k   | View cookies
+
+
+
+
