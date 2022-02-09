@@ -13,5 +13,9 @@ Languages
 
 Vue Specific
 ------------
-[[VueJS]]
-[[vue-cli]]
+[[VueJS]]       | VueJS Framework
+[[vue-cli]]     | Cli app for startng Vue projects
+[[vue-router]]  | Official VueJS router
+[[vuex]]        | Vue state management
+[[test-utils]]  | Vue testing suite
+[[Ionic]]       | Vue framework for app development
