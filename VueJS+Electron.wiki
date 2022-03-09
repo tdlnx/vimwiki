@@ -1,0 +1,15 @@
+[[index]]
+
+Getting a basic electron + vuejs app up and running
+
+vue create [project]
+vue add router
+vue add vuex
+vue add electron-builder
+
+That's basically it. You'll see a backgrouns.js file in your src directory
+with all the electron config stuff. 
+
+You can also run -> npm run electron:build to build your app and npm run electron:serve to test.
+
+This will get updated as I learn more stuff but for the time being here you go have fun.
