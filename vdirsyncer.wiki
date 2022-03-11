@@ -26,7 +26,7 @@ fileext = ".ics"
 [storage cal_remote]
 type = "caldav"
 url = "https://caldav.fastmail.com/"
-username = "travis@fastmail.org"
+username = "email"
 password = ""
 
 [pair contacts]
@@ -42,7 +42,7 @@ fileext = ".vcf"
 [storage contacts_remote]
 type = "carddav"
 url = "https://carddav.fastmail.com/"
-username = "travis@fastmail.org"
+username = "email"
 password = ""
 
 

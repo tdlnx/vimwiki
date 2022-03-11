@@ -1,0 +1,33 @@
+[[index]]
+
+Website
+-------
+jrnl.sh
+
+
+Cheat Sheet
+-----------
+
+New Entry:
+
+jrnl [day] [time]: [Entry] - You can also add a '*' before ':' to favorite the entry.
+
+Tags are supported with '@' - ie 'Went to the @beach'
+
+Viewing Entries:
+
+View All - jrnl -to today
+Recent - jrnl -[number of entries]
+Date Range - jrnl -from "when" -to "when"
+Specific Dat - jrnl -on [day]
+By word - jrnl -contains "word" (you can add --edit at the end to open them in your editor)
+By Tag - jrnl @[tag] (you can enter multiple)
+See Tags - jrnl --tags
+See Stars - jrnl -starred
+
+You can make multiple different journals by specifying them after calling jrnl
+ie - jrnl work [entry]
+
+Deleting: just add --delete
+
+
