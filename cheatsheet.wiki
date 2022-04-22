@@ -53,6 +53,7 @@ EVERY-DAY VIM SHORTCUTS [VIM]
 | gf       | Open the highlighted file under the cursor                                        |
 | y        | In visual mode, 'yank' selected text to the vim clipboard                         |
 | "*y      | Same as 'y' but it compies to your system clipboard                               |
+| %        | Jump to the matching bracket
 | $        | Move to the end of the current line                                               |
 | 0        | Move to the beginning of the current line                                         |
 '----------------------------------------------------------------------------------------------'

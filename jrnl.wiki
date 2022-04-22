@@ -24,6 +24,7 @@ By word - jrnl -contains "word" (you can add --edit at the end to open them in y
 By Tag - jrnl @[tag] (you can enter multiple)
 See Tags - jrnl --tags
 See Stars - jrnl -starred
+Edit entries by adding --edit
 
 You can make multiple different journals by specifying them after calling jrnl
 ie - jrnl work [entry]

@@ -1,0 +1,36 @@
+[[index]]
+
+I like using the Tender (github.com/jacoborus/tender.vim) color scheme 
+everywhere.
+
+# If `true`, bold text is drawn using the bright color variants.
+#draw_bold_text_with_bright_colors: false
+# Colors (Tomorrow Night Bright)
+colors:
+  # Default colors
+  primary:
+    background: '#282828'
+    foreground: '#eeeeee'
+
+  # Normal colors
+  normal:
+    black: '#282828'
+    red: '#f43753'
+    green: '#c9d05c'
+    yellow: '#ffc24b'
+    blue: '#b3deef'
+    magenta: '#d3b987'
+    cyan: '#73cef4'
+    white: '#eeeeee'
+
+  # Bright colors
+  bright:
+    black: '#4c4c4c'
+    red: '#f43753'
+    green: '#c9d05c'
+    yellow: '#ffc24b'
+    blue: '#b3deef'
+    magenta: '#d3b987'
+    cyan: '#73cef4'
+    white: '#feffff'
+theme: Tender

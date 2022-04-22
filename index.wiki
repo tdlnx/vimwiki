@@ -11,6 +11,7 @@
 [[bash-config]]
 [[vimrc-settings]]
 [[vim-plugins]]
+[[terminal-colors]]
 
 
 > Cli Apps
